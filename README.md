@@ -79,13 +79,16 @@ Student-Dropout-Risk-Early-Warning-System/
 │       └── student_dropout_model_ready.csv
 │
 ├── models/
-│   └── Model artifacts
+│   └── dropout_model.pkl
+│
+├── demo/
+│   ├── demo.gif
+│   └── demo.mp4
 │
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
-```
 
 ---
 

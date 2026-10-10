@@ -259,3 +259,50 @@ Monitor:
 - Error rate
 - Model drift
 - High-risk prediction percentage
+
+
+## Deployment & MLOps
+
+### Model Deployment
+
+The trained Logistic Regression model was serialized and saved as:
+
+```text
+models/dropout_model.pkl
+```
+
+A local Dash application was developed to demonstrate deployment and prediction capabilities.
+
+Application file:
+
+```text
+src/app.py
+```
+
+### Running the Application
+
+```bash
+python src/app.py
+```
+
+Default URL:
+
+```text
+http://127.0.0.1:8050
+```
+
+### Demo
+
+See the deployment demonstration in:
+
+```text
+demo/
+```
+
+### MLOps Components
+
+- Reproducible environment via `requirements.txt`
+- Version-controlled source code via GitHub
+- Serialized production-ready model (`dropout_model.pkl`)
+- Deployment guide provided
+- Demonstration media included

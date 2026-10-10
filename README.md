@@ -238,4 +238,24 @@ Potential enhancements include:
 
 - Larger multi-institution datasets
 - Longitudinal student tracking
-- Hyperparameter 
+- Hyperparameter
+
+
+
+## Versioning
+
+Version 1.0
+- Logistic Regression baseline deployment
+
+Rollback Plan:
+- Revert to previous GitHub commit if deployment issues occur.
+
+
+## Monitoring
+
+Monitor:
+
+- Prediction volume
+- Error rate
+- Model drift
+- High-risk prediction percentage

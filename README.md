@@ -1,5 +1,4 @@
 # Student-Dropout-Risk-Early-Warning-System
-# Student Dropout Risk Early Warning System
 
 ## Project Overview
 
